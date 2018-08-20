@@ -52,7 +52,7 @@ public class MainActivity extends BaseActivity implements BaseMainFragment.OnBac
         tabIndicators = new ArrayList<>();
         tabIndicators.add("新闻");
         tabIndicators.add("游戏");
-        tabIndicators.add("活动");
+        tabIndicators.add("电影");
         tabIndicators.add("我的");
 
         tabFragments = new ArrayList<>();
