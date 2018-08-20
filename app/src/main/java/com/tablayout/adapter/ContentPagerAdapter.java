@@ -9,7 +9,7 @@ import com.tablayout.base.BaseMainFragment;
 import java.util.List;
 
 /**
- * Created by yangwenmin on 2018/8/20.
+ * Created by wxyass on 2018/8/20.
  */
 public class ContentPagerAdapter extends FragmentPagerAdapter {
 
