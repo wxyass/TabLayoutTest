@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 
 import com.tablayout.R;
 import com.tablayout.base.BaseMainFragment;
+import com.tablayout.fragment.fourth.child.SyssettingFragment;
 
 
 /**
@@ -36,7 +37,7 @@ public class FourthFragment extends BaseMainFragment {
     public void onLazyInitView(@Nullable Bundle savedInstanceState) {
         super.onLazyInitView(savedInstanceState);
         if(findChildFragment(FourthFragment.class)==null){
-            // loadRootFragment(R.id.fl_first_container, FirstHomeFragment.newInstance());
+            loadRootFragment(R.id.fl_fourth_container, SyssettingFragment.newInstance());
         }
     }
 }

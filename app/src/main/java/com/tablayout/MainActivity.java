@@ -65,6 +65,9 @@ public class MainActivity extends BaseActivity implements BaseMainFragment.OnBac
         mViewPager.setAdapter(contentAdapter);
         mTabLayout.setupWithViewPager(mViewPager);
         setupNewTabIcons();// 设置底部菜单的图标
+
+
+
     }
 
     private void setupNewTabIcons() {

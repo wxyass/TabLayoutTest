@@ -6,4 +6,17 @@
 
     <color name="bg_selected_false">#ddd</color>
     <color name="bg_selected_true">#eee</color>
+
+    <!--app背景颜色-->
+    <color name="bg_app">#F2F2F2</color>
+
+    <!--浅灰色-->
+    <color name="color_e5e5e5">#e5e5e5</color>
+
+    <!--标题 返回按钮字体颜色-->
+    <color name="gray_color_333333">#333333</color>
+
+    <!--登录按钮颜色-->
+    <color name="color_fed952">#fed952</color>
+    <color name="color_cccccc">#cccccc</color>
 </resources>
