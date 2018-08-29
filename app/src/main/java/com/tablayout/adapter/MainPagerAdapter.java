@@ -11,12 +11,12 @@ import java.util.List;
 /**
  * Created by wxyass on 2018/8/20.
  */
-public class ContentPagerAdapter extends FragmentPagerAdapter {
+public class MainPagerAdapter extends FragmentPagerAdapter {
 
     private List<String> tabIndicators;
     private List<BaseMainFragment> tabFragments;
 
-    public ContentPagerAdapter(FragmentManager fm, List<BaseMainFragment> tabFragments, List<String> tabIndicators) {
+    public MainPagerAdapter(FragmentManager fm, List<BaseMainFragment> tabFragments, List<String> tabIndicators) {
         super(fm);
         this.tabIndicators = tabIndicators;
         this.tabFragments = tabFragments;

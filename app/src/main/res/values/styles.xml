@@ -8,25 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="font_size6">
+
+    <!-- 系统管理  条目 图片 -->
+    <style name="system_title">
         <item name="android:textSize">16sp</item>
-    </style>
-
-    <!-- 页面上一级文字 -->
-    <style name="page_label_big" parent="@style/font_size6">
-        <item name="android:textColor">#333333</item>
-    </style>
-
-    <!-- 系统管理  最左侧一栏图片 -->
-    <style name="system_title" parent="@style/page_label_big">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerVertical">true</item>
         <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:textColor">#333333</item>
     </style>
 
-    <!-- 系统管理  最左侧一栏图片 文字-->
-    <style name="system_title_text" parent="@style/page_label_big">
+    <!-- 系统管理  条目 文字-->
+    <style name="system_title_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerVertical">true</item>

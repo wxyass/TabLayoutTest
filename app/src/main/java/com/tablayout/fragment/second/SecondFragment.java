@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 
 import com.tablayout.R;
 import com.tablayout.base.BaseMainFragment;
-import com.tablayout.fragment.fourth.child.SyssettingFragment;
 
 
 /**
